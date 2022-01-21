@@ -6,11 +6,12 @@ replace github.com/filecoin-project/filecoin-ffi => ./extern/filecoin-ffi
 
 require (
 	github.com/filecoin-project/go-address v0.0.6
+	github.com/filecoin-project/go-state-types v0.1.1
+	github.com/filecoin-project/go-storedcounter v0.0.0-20200421200003-1c99c62e8a5b
 	github.com/filecoin-project/lotus v1.13.2
 	github.com/ipfs/go-datastore v0.4.6
-	github.com/ipfs/go-log/v2 v2.5.0
-	github.com/mitchellh/go-homedir v1.1.0
-	github.com/urfave/cli/v2 v2.3.0
+	github.com/ipfs/go-log/v2 v2.3.0
+	github.com/urfave/cli/v2 v2.2.0
 )
 
 require (
@@ -69,10 +70,8 @@ require (
 	github.com/filecoin-project/go-jsonrpc v0.1.5 // indirect
 	github.com/filecoin-project/go-padreader v0.0.1 // indirect
 	github.com/filecoin-project/go-paramfetch v0.0.2 // indirect
-	github.com/filecoin-project/go-state-types v0.1.1 // indirect
 	github.com/filecoin-project/go-statemachine v1.0.1 // indirect
 	github.com/filecoin-project/go-statestore v0.1.1 // indirect
-	github.com/filecoin-project/go-storedcounter v0.0.0-20200421200003-1c99c62e8a5b // indirect
 	github.com/filecoin-project/specs-actors v0.9.14 // indirect
 	github.com/filecoin-project/specs-actors/v2 v2.3.5 // indirect
 	github.com/filecoin-project/specs-actors/v3 v3.1.1 // indirect
@@ -207,6 +206,7 @@ require (
 	github.com/mikioh/tcpopt v0.0.0-20190314235656-172688c1accc // indirect
 	github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1 // indirect
 	github.com/minio/sha256-simd v1.0.0 // indirect
+	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/multiformats/go-base32 v0.0.4 // indirect
 	github.com/multiformats/go-base36 v0.1.0 // indirect
