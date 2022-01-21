@@ -1,0 +1,5 @@
+build/.*
+extern/filecoin-ffi/rust/target
+/**/*/.DS_STORE
+.DS_STORE
+/filminerctl
